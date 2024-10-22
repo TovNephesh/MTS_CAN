@@ -18,3 +18,21 @@ This repository contains the code and data for our benchmarking experiment aimed
    ```bash
    
 
+## Usage
+
+### Data Preparation
+
+The dataset used in this project consists of CAN log files, converted into structured time series format, with fault injection information provided. This allows for training and testing of models on real-time streaming data.
+
+### Running the Benchmarking Experiment
+
+To benchmark models across different TSCV methods:
+
+1. **Walk-Forward Validation**: Each fold uses prior observations for training and future observations for testing.
+2. **Sliding Window Validation**: A fixed-size window is moved across the dataset with a predefined step size, creating overlapping segments for training and testing.
+3. **Blocking Window Validation**: A non-overlapping window approach, where each window covers a unique segment of the dataset, used for training and testing.
+
+To run the experiments, execute the main benchmarking script:
+
+```bash
+python benchmark.py --model <model_name> --method <tscv_method>
