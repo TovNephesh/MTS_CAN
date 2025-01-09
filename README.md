@@ -33,6 +33,6 @@ This repository contains the code for a benchmarking experiment aimed at detecti
 ### Steps
 
 
-
+---
 ## Dataset
 A detailed overview of the dataset can be found at You can download the dataset from [Zenodo](https://zenodo.org/records/12807317). The dataset is comprised of the MTS data from a real CAN bus, specifically designed for fault detection research. It includes labeled instances of both normal and faulty operations, facilitating the development and evaluation of ML models for identifying anomalies in automotive systems. This resource can be used by researchers and practitioners aiming to enhance vehicle safety and reliability through advanced fault detection methodologies.
