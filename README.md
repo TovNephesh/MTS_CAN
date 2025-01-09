@@ -31,11 +31,8 @@ This repository contains the code for a benchmarking experiment aimed at detecti
 - Required Python libraries are listed in the `requirements.txt` file.
 
 ### Steps
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/TovNephesh/Multivariate-Time-Series-Intermittent-Fault-Detection-in-Controller-Area-Network-CAN-)
 
-To run the experiments, execute the main benchmarking script:
 
-```bash
-python benchmark.py --model <model_name> --method <tscv_method>
+
+## Dataset
+A detailed overview of the dataset can be found at You can download the dataset from [Zenodo](https://zenodo.org/records/12807317). The dataset is comprised of the MTS data from a real CAN bus, specifically designed for fault detection research. It includes labeled instances of both normal and faulty operations, facilitating the development and evaluation of ML models for identifying anomalies in automotive systems. This resource can be used by researchers and practitioners aiming to enhance vehicle safety and reliability through advanced fault detection methodologies.
