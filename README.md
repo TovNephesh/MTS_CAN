@@ -22,6 +22,8 @@ This repository contains the code for a benchmarking experiment aimed at detecti
 - **Evaluation Metrics**:
   - Accuracy, Precision, Recall, F1-Score, AUC-ROC, and Matthews Correlation Coefficient (MCC).
 
+![](doc/design_diagram.jpg)
+
 ---
 
 ## Installation
