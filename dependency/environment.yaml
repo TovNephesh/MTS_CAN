@@ -488,4 +488,3 @@ dependencies:
       - tzdata==2024.2
       - wasabi==1.1.2
       - werkzeug==3.0.1
-prefix: /Users/6u0/miniconda3/envs/num_methods
